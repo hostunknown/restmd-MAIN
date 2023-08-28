@@ -1,0 +1,131 @@
+.FoodAndPeople {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.fap-news-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.fap-news-1 {
+    display: flex;
+}
+
+.fap-news-1-cont {
+    min-height: 50vh;
+    min-width: 70vh;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+     url(../NewsPages/NewsImages/5694895-restaurant-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15%;
+    transition: 0.3s ease-in-out;
+    /* cursor: pointer; */
+}
+
+.fap-news-1-cont:hover {
+    transform: scale(1.05);
+}
+
+.fap-news-1-desc-cont {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    display: flex;
+    flex-direction: column;
+}
+
+.fap-news-1-desc-header {
+    font-size: 1rem;
+    color: goldenrod;
+    font-style: italic;
+}
+
+.fap-news-1-desc-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--nav-hoover-color2);
+}
+
+.fap-news-1-desc-title a {
+    color: var(--nav-hoover-color2);
+    transition: 0.2s ease-in-out;
+}
+
+.fap-news-1-desc-title a:hover {
+    color: gold;
+}
+
+
+.fap-news-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-height: 50vh;
+}
+
+
+.fap-news-2-cont {
+    padding: 15%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+     url(../NewsPages//NewsImages//news2_main.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.fap-news-2-cont:hover {
+    transform: scale(1.05);
+}
+
+.fap-news-2-cont2 {
+    padding: 15%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+     url(../NewsPages//NewsImages//news2_main.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.fap-news-2-cont2:hover {
+    transform: scale(1.05);
+}
+
+
+.fap-news-2-desc-title a {
+    color: goldenrod;
+    text-align: center;
+    font-size: 1 rem;
+}
+
+.fap-news-2-desc-header {
+    color: goldenrod;
+    text-align: center;
+    font-style: italic;
+}
+
+.fap-news-2-desc-cont {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3.5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,30 @@
+/* Hide default arrows
+.images-wrapper .navigation .prevArrow, .images-wrapper .navigation .nextArrow {
+    display: none !important;
+  }
+   */
+  /* Custom arrow styling */
+/* .slide-container {
+    position: relative;
+  }
+  
+  .custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .prev-arrow {
+    left: 20px;
+  }
+  
+  .next-arrow {
+    right: 20px;
+  }
+   */
